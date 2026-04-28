@@ -1,0 +1,23 @@
+# =============================================================================
+# requirements.txt — Python Package Dependencies
+# Sri Lanka Flood Risk Dataset — CRISP-DM Data Mining Project
+# =============================================================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Tested with Python 3.9+
+# =============================================================================
+
+# Core data handling
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Machine learning
+scikit-learn>=1.2.0
+
+# Visualisation
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Optional — for SMOTE (class imbalance oversampling, Phase 3 extension)
+# imbalanced-learn>=0.10.0
